@@ -1,7 +1,7 @@
 # 🧩 Linguagem Orientada a Objetos (LOO)
 
 ## 📌 O que é?
-A linguagem orientada a objetos é um paradigma de programação baseado na organização do código em objetos.
+A Linguagem Orientada a Objetos é um paradigma de programação baseado na organização do código em objetos.
 
 ---
 
@@ -29,12 +29,12 @@ A importância se dá pela necessidade da LOO para o desenvolvimento de sistemas
 
 ## 🧠 Estrutura da disciplina
 
-- [Classes](classes.md)
-- [Objetos](objetos.md)
-- [Abstração](abstracao.md)
-- [Herança](heranca.md)
-- [Polimorfismo](polimorfismo.md)
-- [Encapsulamento](encapsulamento.md)
+📄 [Classes](classes.md)<br>
+📄 [Objetos](objetos.md)<br>
+📄 [Abstração](abstracao.md)<br>
+📄 [Herança](heranca.md)<br>
+📄 [Polimorfismo](polimorfismo.md)<br>
+📄 [Encapsulamento](encapsulamento.md)<br>
 
 ---
 
