@@ -14,7 +14,7 @@ Consolidar conhecimento, documentar aprendizados e construir um portfólio técn
 - 📝 Logs → Registro de aprendizado diário
 
 ## 🌐 Acesse o site
-(Coloque aqui o link do GitHub Pages depois)
+(Lembrar de colocar o link do GitHub Pages depois)
 
 ## 🚀 Tecnologias usadas
 - Markdown
