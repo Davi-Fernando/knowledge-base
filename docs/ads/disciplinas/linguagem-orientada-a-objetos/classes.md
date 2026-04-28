@@ -62,7 +62,7 @@ Dessa forma percebemos que é possível, utilizando atributos e métodos(operaç
 ---
 
 ## 🔗 Conexões
-Relacionado com: [Objetos](objetos.md)
+📄[Objetos](objetos.md)
 
 ---
 
