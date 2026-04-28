@@ -7,7 +7,13 @@ Resumidamente, a Classe é um molde para criar objetos.
 
 ## 🧠 Explicação
 Ela define atributos e comportamentos.
-- Atributos -> São as características de um objeto, por exemplo:
+
+## Atributos e Operações
+São componentes fundamentais para as classes na POO, utilizamos eles para modelar de forma mais precisa um objeto do mundo real em um sistema. Eles definem o que um objeto tem (Atributos) e o que um objeto faz (Operações) (FOWLER, 2011)<br>
+
+- Atributos -> São as características de um objeto, ou seja, váriaveis que armazenam as propriedades de um objeto e descrevem o estado do objeto em um dado momento (FOWLER, 2011). Por exemplo numa classe "Livro" teremos os atributos título, autor e ano de publicação, essas propriedades aparecerão nas instâncias da classe "Livro".
+
+A seguir, um exemplo em python da definição de atributos de uma classe:
 
 ```python
 class Livro:
@@ -15,11 +21,12 @@ class Livro:
         self.titulo = titulo
         self.autor = autor
         self.anoPublicacao = anoPublicacao
-
+#python
 ```
-No caso citado acima temos a classe livro com os atributos titulo, autor e ano de publicação
+Como no caso citado acima, temos a classe "Livro" com os atributos título, autor e ano de publicação.
 
-- Métododos -> São as ações que os objetos executam, por exemplo:
+- Operações ou Métodos -> São as ações que os objetos executam, permitindo manipular atributos de uma classe e dizer o que o objeto fará, por exemplo:
+
 ```python
 class Livro:
     def __init__(self, titulo, autor, anoPublicacao):
@@ -32,8 +39,12 @@ class Livro:
         print(f"Título: {self.titulo}")
         print(f"Autor: {self.autor}")
         print(f"Ano de Publicação: {self.anoPublicacao}")
+#python
 ```
-No caso citado acima, utilizamos o exemplo de atributos e definimos ações para 
+
+No caso citado acima, utilizamos o método "exibir_dados" para imprimir os valores dos atributos da classe, sendo esses atributos título, autor e ano de publicação.<br>
+Dessa forma percebemos que é possível, utilizando atributos e métodos(operações), trazer um objeto do mundo real, o livro, para um sistema.
+
 ---
 
 ## ⚠️ Pontos importantes
@@ -41,6 +52,7 @@ No caso citado acima, utilizamos o exemplo de atributos e definimos ações para
 - Nome deve ser claro
 - Nome começa com letra maiúscula
 - Segue a mesma regra para nomenclatura de variáveis
+- Atributos e Métodos devem ser bem definidos para não impactar em outros elementos do sistema
 
 ---
 
@@ -50,7 +62,7 @@ No caso citado acima, utilizamos o exemplo de atributos e definimos ações para
 ---
 
 ## 🔗 Conexões
-Relacionado com: Objetos
+Relacionado com: Objetos(objetos.md)
 
 ---
 
