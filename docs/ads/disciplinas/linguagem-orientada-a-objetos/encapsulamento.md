@@ -11,6 +11,46 @@ Por exemplo, em uma conta bancária, o saldo não deve ser alterado diretamente.
 
 ---
 
+### Modificadores de Acesso
+- Público (public): permite que um atributo ou método seja acessado de qualquer classe, seja interna ou externa ao pacote onde foi declarado.
+- Protegido (protected): permite que o acesso seja feito apenas dentro do mesmo pacote e por subclasses, mesmo em pacotes diferentes.
+- Privado (private): restringe o acesso aos membros da própria classe, não permitindo acesso direto de fora.<br>
+
+Esses modificadores de acesso são usados para proteger a integridade dos dados e garantir que o comportamento dos objetos seja controlado. A seguir um exemplo na linguagem Java:
+
+```java
+public class ContaBancaria {
+
+    private double saldo;
+
+    public ContaBancaria(double saldoInicial) {
+        this.saldo = saldoInicial;
+    }
+
+    public void depositar(double valor) {
+        if (valor > 0) {
+            saldo += valor;
+            System.out.println("Depósito realizado. Saldo atual: R$ " + saldo);
+        }
+    }
+
+    public void sacar(double valor) {
+        if (valor > 0 && valor <= saldo) {
+            saldo -= valor;
+            System.out.println("Saque realizado. Saldo atual: R$ " + saldo);
+        } else {
+            System.out.println("Saque inválido.");
+        }
+    }
+ 
+    public double getSaldo() {
+        return saldo;
+    }
+}
+```
+
+---
+
 ## ⚠️ Pontos importantes
 - Protege os dados contra alterações indevidas
 - Controla como os atributos são acessados e modificados
@@ -44,6 +84,8 @@ Encapsulamento não é esconder tudo — é expor apenas o necessário de forma 
 ---
 
 ## 💻 Exemplo
+
+A seguir o exemplo mostrado acima, porém em python:
 
 ```python
 class ContaBancaria:
