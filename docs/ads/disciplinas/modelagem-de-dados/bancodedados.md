@@ -1,103 +1,63 @@
 # 🗄️ Banco de Dados
-
-[Relacionais]()
-[Hierarquicos]()
-
-## 🪖 Banco de Dados Hierarquicos
-  É um modelo de banco de dados onde as informações são organizadas em forma de árvore (hierarquia).
-
-👉 Pense como uma estrutura de pastas no computador:
-
-```
-Empresa
- ├── Departamento
- │    ├── Funcionário
- │    ├── Funcionário
- │
- ├── Departamento
-      ├── Funcionário
-```
-<br>
-  Ele foi um dos primeiros modelos porque os discos antigos armazenavam dados de forma sequencial e era mais fácil organizar os dados seguindo uma estrutura fixa. Ou seja, a estrutura do banco seguia a forma física de armazenamento
-- Existe um nível superior (raiz)
-- E níveis abaixo, ligados em forma de pai → filho
+  É um conjunto organizado de **dados relacionados**, armazenados de forma estruturada para permitir **acesso, manipulação e geração de informações**. Representa uma parte do mundo real (minimundo) e é projetado para atender a um propósito específico, sendo utilizado por sistemas e usuários.
 
 ---
 
-## 📌 Conceitos principais
+## 📌 Conceitos fundamentais  
 
-### 1. Registro
-  É como se fosse uma “linha” com informações sobre algo.
+### Dados  
+Fatos brutos que podem ser armazenados (ex: números, textos, datas).
 
-✔ Exemplo:
+### Informação  
+Resultado do processamento dos dados, com significado e utilidade.
 
-- Um registro de cliente
-- Um registro de funcionário
-💡 Equivale a uma linha em tabela (no modelo relacional)
+### Banco de Dados (BD)  
+Coleção organizada de dados com relacionamento lógico entre eles.
 
+### SGBD (Sistema Gerenciador de Banco de Dados)  
+Software responsável por gerenciar o banco de dados (armazenamento, acesso, segurança).
 
-### 2. Tipo de registro
-Conjunto de registros iguais.
+### Aplicações  
+Sistemas que utilizam os dados do banco para executar funções (ex: sistemas acadêmicos, financeiros).
 
-✔ Exemplo:
+### Minimundo  
+Parte da realidade que o banco de dados representa.
 
-- Todos os funcionários
-- Todos os departamentos
-
-💡 Equivale a uma tabela
-
-### 3. Relacionamento pai-filho
-Esse é o coração do modelo.
-
-👉 Funciona assim:
-
-- Um registro pai pode ter vários filhos
-- Um filho só pode ter um único pai
-
-✔ Exemplo:
-
-- Departamento (pai)
-- Funcionários (filhos)
+---
 
 ## ⚠️ Pontos importantes
-- A estrutura é em forma de árvore (hierarquia), com níveis bem definidos.
-- Existe sempre a relação pai → filho (um-para-muitos).
-- Cada registro filho só pode ter um único pai.
-- A navegação nos dados geralmente segue caminhos fixos (da raiz para baixo).
+- Dados precisam estar **organizados e relacionados** para formar um banco de dados  
+- Um BD é criado com um **propósito específico**  
+- Representa um **recorte do mundo real (minimundo)**  
+- É gerenciado por um **SGBD**  
+- Pode ser acessado por **múltiplas aplicações simultaneamente**  
 
----
 
 ## ❌ Erros comuns
-- Achar que um registro pode ter mais de um pai (isso não é permitido).
-- Usar esse modelo para cenários com muitos-para-muitos (N:N).
-- Confundir registros com tabelas sem entender a limitação estrutural.
-- Ignorar a rigidez do modelo ao tentar representar situações complexas.
+- Confundir banco de dados com um simples conjunto de arquivos desorganizados  
+- Ignorar a importância da **modelagem de dados**  
+- Achar que o banco de dados funciona sem um SGBD  
+- Não considerar o contexto (minimundo) na criação dos dados  
+- Misturar dados sem relação lógica  
 
 ---
 
 ## 🔗 Conexões
-📄[assunto](link para o arquivo)
+📄[Modelagem de Dados](index.md)<br>
+📄[SGBD](link para o arquivo)<br>
+📄[Banco de Dados Relacional](banco-de-dados-relacional)<br>  
 
 ---
 
 ## 🚀 Aplicação prática
-1. Estrutura organizacional de empresas (empresa → setores → funcionários).
-2. Sistemas antigos de arquivos e diretórios (como estrutura de pastas).
-3. Sistemas onde os dados seguem uma hierarquia fixa (ex: classificação de produtos).
+1. Sistemas empresariais (ERP, controle financeiro, RH)  
+2. Aplicações web (sites, e-commerce, redes sociais)  
+3. Sistemas governamentais e educacionais  
 
 ---
 
 ## 💡 Insight
-No modelo hierárquico:
-
-Um pai pode ter vários filhos, mas um filho NÃO pode ter vários pais.
-
-Isso é chamado de:
-
-➡️ relacionamento 1:N (um para muitos)
-
-
-
+  Um banco de dados não é apenas armazenamento — ele é a base para transformar **dados em informação útil**, permitindo que sistemas tomem decisões, automatizem processos e gerem valor real.
 
 
 
