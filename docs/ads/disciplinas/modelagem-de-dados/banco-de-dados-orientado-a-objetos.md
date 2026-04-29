@@ -42,7 +42,7 @@ Capacidade de armazenar objetos de forma permanente no banco.
 
 ## 🔗 Conexões
 
-📄[Banco de Dados Relacional](banco-de-dados-relacional.md)<br>
+📄[Banco de Dados Relacional](banco-de-dados-relacionais.md)<br>
 📄[Modelagem de Dados](index.md)<br>
 📄[Programação Orientada a Objetos](inserir depois)<br>  
 
