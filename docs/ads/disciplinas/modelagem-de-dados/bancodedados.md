@@ -45,7 +45,7 @@ Parte da realidade que o banco de dados representa.
 ## 🔗 Conexões
 📄[Modelagem de Dados](index.md)<br>
 📄[SGBD](link para o arquivo)<br>
-📄[Banco de Dados Relacional](banco-de-dados-relacional)<br>  
+📄[Banco de Dados Relacional](banco-de-dados-relacionais)<br>  
 
 ---
 
